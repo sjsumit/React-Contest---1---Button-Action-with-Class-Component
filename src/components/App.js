@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div id="main">
         <button
-          id="para"
+          id="click"
           onClick={() => this.setState({ para: !this.state.para })}
         >
           click
